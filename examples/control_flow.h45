@@ -1,0 +1,25 @@
+int factorial(int n) {
+    if (n <= 1) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+
+int main() {
+    int num = 5;
+    int result = factorial(num);
+    print(result);
+    
+    int i = 0;
+    while (i < 10) {
+        print(i);
+        i = i + 1;
+    }
+    
+    for (int j = 0; j < 5; j = j + 1) {
+        print(j);
+    }
+    
+    return 0;
+}

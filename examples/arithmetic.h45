@@ -1,0 +1,15 @@
+int main() {
+    int x = 10;
+    int y = 20;
+    int sum = x + y;
+    int difference = x - y;
+    int product = x * y;
+    int quotient = y / x;
+    
+    print(sum);
+    print(difference);
+    print(product);
+    print(quotient);
+    
+    return 0;
+}
